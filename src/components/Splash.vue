@@ -19,8 +19,11 @@ export default {
     padding-top: 30px;
   }
   #chanceHero {
-    width: 85vw;
+    width: 80vw;
     margin-top: 20px;
+    border-radius: 25px;
+    opacity: 0.9;
+    margin-bottom: 30px;
   }
   .welcome {
     margin-top: 185px;
@@ -52,6 +55,7 @@ export default {
     width: 45vw;
     margin-top: 20px;
     border-radius: 25px;
+    opacity: 0.8;
   }
   .welcome {
     margin-top: 185px;

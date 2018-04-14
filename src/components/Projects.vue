@@ -69,9 +69,9 @@ export default {
   #card {
     display: flex;
     justify-content: center;
-    padding-top: 20px;
-    min-height: 300px;
-    height: 500px;
+    padding-top: 10px;
+    /* min-height: 330px; */
+    height: 520px;
   }
   h6 {
     height: 50px;

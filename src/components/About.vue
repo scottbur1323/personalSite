@@ -13,16 +13,12 @@
 
 <script>
 export default {
-  name: 'About',
-  data () {
-    return {
-      msg: ''
-    }
-  }
+  name: 'About'
 }
 </script>
 
 <style scoped>
+/* mobile */
 @media screen and (max-width: 740px) {
   .title {
     text-decoration: underline overline;
@@ -53,6 +49,7 @@ export default {
     width: 20vh;
   }
 }
+/* desktop */
 @media screen and (min-width: 741px) {
   .title {
     text-decoration: underline overline;
@@ -76,6 +73,7 @@ export default {
   }
   .CENTER {
     align-content: center;
+    font-size: 130%;
   }
   .leftDiv {
     width: 20vh;

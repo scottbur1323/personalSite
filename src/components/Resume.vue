@@ -1,10 +1,10 @@
 <template>
   <div class="animated bounceInLeft">
     <h1 class="title">Resume</h1>
+    <h4>click image to download</h4>
     <a href="https://drive.google.com/file/d/1NUYDiIMqOjFBF42aZ_W_A8BDPgX5Z2o1/view?usp=sharing">
       <img src="../../static/Resume.jpg">
     </a>
-    <h4>click image to download</h4>
   </div>
 </template>
 
@@ -37,10 +37,11 @@ export default {
     position: relative;
     max-width: 90%;
     max-height: 100%;
-    padding-top: 15px;
+    margin-bottom: 30px;
   }
   h4 {
-    padding-top: 10px;
+    /* padding-top: 10px; */
+    font-size: 10px;
   }
 
 }

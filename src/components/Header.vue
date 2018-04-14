@@ -59,7 +59,7 @@ export default {
     margin-left: 1vh;
     margin-right: 1vh;
     border-bottom: 3px;
-    font-size: 15px;
+    font-size: 14px;
   }
   .button:hover {
     text-decoration-color: #8B521B;
@@ -100,7 +100,7 @@ export default {
     height: inherit;
     width: auto;
     background-color: transparent;
-    opacity: .7;
+    opacity: .3;
     transition: color 3s, opacity 3s, text-decoration 1s;
     text-decoration: underline overline;
     text-decoration-color: transparent;
@@ -108,7 +108,7 @@ export default {
     margin-left: 2vh;
     margin-right: 2vh;
     border-bottom: 3px;
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .button:hover {
