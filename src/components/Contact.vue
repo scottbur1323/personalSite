@@ -2,13 +2,9 @@
   <div id="column" class="animated bounceInLeft">
     <h1 class="title">Contact</h1>
     <section>
-      <div class="topImages">
-        <a href="mailto:me@chancescottburke.com"><img src="../../static/email.png"></a>
+      <div>
+        <a href="mailto:me@chancescottburke.com"><img class="mailImage" src="../../static/email.png"></a>
         <a href="https://talent.galvanize.com/students/2222" target="_blank"><img src="../../static/galvanize.png"></a>
-      </div>
-    </section>
-    <section>
-      <div class="bottomImages">
         <a href="https://www.linkedin.com/in/chanceburke/" target="_blank"><img src="../../static/linkedin.png"></a>
         <a href="https://github.com/scottbur1323" target="_blank"><img src="../../static/github.png"></a>
       </div>
@@ -18,11 +14,7 @@
 
 <script>
 export default {
-  name: 'Contact',
-  data () {
-    return {
-    }
-  }
+  name: 'Contact'
 }
 </script>
 
@@ -38,7 +30,6 @@ export default {
   }
   img {
     width: 30vw;
-    /* height: 20vw; */
     margin-left: 15px;
     margin-right: 15px;
   }
@@ -57,14 +48,18 @@ export default {
     font-size: 50px;
   }
   img {
-    width: 175px;
-    height: 175px;
+    width: 18vw;
+    height: 18vw;
+    /* box-shadow: 0 0 0.5px black, 0 0 1px black, 0 0 0 black;
+    border-radius: 10px; */
+    margin-left: 10px;
+  }
+  .mailImage {
+    padding-left: 4px;
+    padding-right: 4px;
   }
   section {
-    padding-top: 20px;
-  }
-  #column {
-
+    padding-top: 40px;
   }
 }
 </style>

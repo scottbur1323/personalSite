@@ -100,15 +100,15 @@ export default {
     height: inherit;
     width: auto;
     background-color: transparent;
-    opacity: .3;
-    transition: color 3s, opacity 3s, text-decoration 1s;
+    opacity: .5;
+    transition: color 1s, opacity 3s, text-decoration 1s;
     text-decoration: underline overline;
     text-decoration-color: transparent;
     color: white;
-    margin-left: 2vh;
-    margin-right: 2vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
     border-bottom: 3px;
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .button:hover {

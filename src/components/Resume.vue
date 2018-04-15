@@ -35,13 +35,13 @@ export default {
   }
   img {
     position: relative;
-    max-width: 90%;
+    max-width: 80vw;
     max-height: 100%;
     margin-bottom: 30px;
   }
   h4 {
-    /* padding-top: 10px; */
     font-size: 10px;
+    color: #6778AA;
   }
 
 }
@@ -59,10 +59,18 @@ export default {
   }
   img {
     position: relative;
-    max-width: 60%;
+    max-width: 50vw;
     max-height: 100%;
     padding-bottom: 40px;
     padding-top: 15px;
+  }
+  img:hover {
+    box-shadow: 0 0 0.5px black, 0 0 1px black, 0 0 0 black;
+    border-radius: 10px;
+  }
+  h4 {
+    font-size: 20px;
+    color: #6778AA;
   }
 }
 

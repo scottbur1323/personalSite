@@ -42,6 +42,7 @@ export default {
   #routed {
     text-align: center;
     position: relative;
+    margin-bottom: 25px;
   }
   #header {
     position: relative;
