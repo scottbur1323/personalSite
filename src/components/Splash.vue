@@ -19,7 +19,7 @@ export default {
     padding-top: 30px;
   }
   #chanceHero {
-    width: 80vw;
+    width: 75vw;
     margin-top: 20px;
     border-radius: 5%;
     opacity: 0.9;
@@ -27,6 +27,7 @@ export default {
     border-width: thick;
     border-color: #6778AA;
     border-style: solid;
+    max-height: 80vh;
   }
   .welcome {
     margin-top: 185px;
@@ -55,13 +56,14 @@ export default {
     padding-top: 30px;
   }
   #chanceHero {
-    width: 45vw;
+    /* width: 45vw; */
     margin-top: 20px;
     border-radius: 25px;
     opacity: 0.9;
     border-width: thick;
     border-color: #6778AA;
     border-style: solid;
+    max-height: 50vh;
   }
   .welcome {
     margin-top: 185px;
