@@ -1,8 +1,8 @@
 <template>
-  <div class="animated bounceInLeft">
+  <div class="animated bounceInLeft" >
     <h1 class="title">Resume</h1>
     <h4>click image to download</h4>
-    <a href="https://drive.google.com/file/d/1NUYDiIMqOjFBF42aZ_W_A8BDPgX5Z2o1/view?usp=sharing">
+    <a href="https://drive.google.com/file/d/1pWMFnS4ZZhwdWjMNC5ohzdWO9kI4RIES/view?usp=sharing" target="_blank">
       <img src="../../static/Resume.jpg">
     </a>
   </div>
@@ -38,12 +38,20 @@ export default {
     max-width: 80vw;
     max-height: 100%;
     margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px black, 0 0 5px black, 0 0 5px black;
+    transition: box-shadow 0.3s;
+
+  }
+  img:hover {
+    box-shadow: 0 0 0.5px black, 0 0 15px blue, 0 0 5px black;
+    border-radius: 10px;
+    transition: box-shadow 0.5s;
   }
   h4 {
     font-size: 10px;
     color: #6778AA;
   }
-
 }
 /* desktop */
 @media screen and (min-width: 741px) {
@@ -60,13 +68,17 @@ export default {
   img {
     position: relative;
     max-width: 50vw;
+    border-radius: 10px;
     max-height: 100%;
-    padding-bottom: 40px;
-    padding-top: 15px;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    box-shadow: 0 0 2px black, 0 0 5px black, 0 0 5px black;
+    transition: box-shadow 0.5s;
   }
   img:hover {
-    box-shadow: 0 0 0.5px black, 0 0 1px black, 0 0 0 black;
+    box-shadow: 0 0 0.5px black, 0 0 15px blue, 0 0 5px black;
     border-radius: 10px;
+    transition: box-shadow 0.5s;
   }
   h4 {
     font-size: 20px;

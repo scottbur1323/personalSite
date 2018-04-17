@@ -1,12 +1,12 @@
 <template>
   <div class="animated bounceInLeft">
     <h1 class="title">Projects</h1>
-    <section id="column">
+    <section>
       <div id="card">
-        <div id="nard" class="card">
+        <div class="card">
           <h6 class="card-header">
             <p class="githubText">GITHUB</p>
-            <a href="https://github.com/SethCaparelli/fridge-vision">
+            <a href="https://github.com/SethCaparelli/fridge-vision" target="_blank">
               <img class="githubLink" src="../../static/github.png" height="35px">
             </a>
           </h6>
@@ -21,13 +21,16 @@
         <div id="nard" class="card">
           <h6 class="card-header">
             <p class="githubText">GITHUB</p>
-            <a href="">
+            <a href="https://github.com/scottbur1323/Recipe-Now"  target="_blank">
               <img class="githubLink" src="../../static/github.png" height="35px">
             </a>
           </h6>
           <div class="card-body">
             <h2 class="card-title">Recipe now!</h2>
             <p class="card-text">A web app that allows the user to compile a shopping list based on what meals they want to make.</p>
+            <a href="https://family-meal-planner.firebaseapp.com/#/"  target="_blank">
+              <img class="projectGifRN" src="../../static/RecipeNow.gif">
+            </a>
           </div>
         </div>
       </div>
@@ -63,7 +66,7 @@ export default {
     text-shadow: 1px 1px 2px black, 0 0 30px black, 0 0px 0px black;
     margin-top: 55px;
   }
-  #nard {
+  .card {
     border-color: #6778AA;
     border-width: thick;
     width: 80vw;
@@ -105,7 +108,14 @@ export default {
     transition: filter 1s;
   }
   .projectGif {
-    border-radius: 25px;
+    border-radius: 15px;
+    max-width: 60%;
+  }
+  .projectGifRN {
+    border-radius: 15px;
+    max-width: 100%;
+    box-shadow: 0 0 0.5px black, 0 0 15px blue, 0 0 5px black;
+    transition: box-shadow 0.5s;
   }
   .githubLink:hover {
     -webkit-filter: invert(1);
@@ -137,7 +147,7 @@ export default {
     text-shadow: 1px 1px 2px black, 0 0 30px black, 0 0px 0px black;
     margin-top: 55px;
   }
-  #nard {
+  .card {
     border-color: #6778AA;
     border-width: medium;
     background-size: 50vh;
@@ -148,9 +158,9 @@ export default {
     transition: opacity 1.1s, border-color 1.1s;
     overflow-y: auto;
     overflow-x: hidden;
-    background-color: #1E3A67;
+    background-color: #0F274D;
   }
-  #nard:hover {
+  .card:hover {
     opacity: 1;
     border-color: #C19640;
     transition: opacity 1s, border-color 1s;
@@ -188,6 +198,18 @@ export default {
   }
   .projectGif {
     border-radius: 25px;
+    max-width: 60%;
+  }
+  .projectGifRN {
+    border-radius: 25px;
+    max-width: 100%;
+    transition: box-shadow 0.5s;
+  }
+  .projectGifRN:hover {
+    border-radius: 25px;
+    max-width: 100%;
+    box-shadow: 0 0 2px black, 0 0 15px white, 0 0 5px white;
+    transition: box-shadow 0.5s;
   }
   .githubLink:hover {
     -webkit-filter: invert(2);

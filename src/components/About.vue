@@ -43,10 +43,10 @@ export default {
     align-content: center;
   }
   .leftDiv {
-    width: 20vh;
+    min-width: 15vw;
   }
   .rightDiv {
-    width: 20vh;
+    min-width: 15vw;
   }
 }
 /* desktop */
@@ -74,12 +74,14 @@ export default {
   .CENTER {
     align-content: center;
     font-size: 130%;
+    max-width: 60vw;
   }
   .leftDiv {
-    width: 20vh;
+    min-width: 20vw;
+    /* min-width: 100%; */
   }
   .rightDiv {
-    width: 20vh;
+    min-width: 20vw;
   }
 }
 </style>
