@@ -5,4 +5,4 @@ A simple website for showing off my most recent projects, having a live version 
 Vue.js, Firebase, HTML5, CSS3
 
 ### Deployed
-https://www.chancescottburke.com
+http://www.chancescottburke.com
