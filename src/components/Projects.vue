@@ -28,7 +28,7 @@
           <div class="card-body">
             <h2 class="card-title">Recipe now!</h2>
             <p class="card-text">A web app that allows the user to compile a shopping list based on what meals they want to make.</p>
-            <a href="https://family-meal-planner.firebaseapp.com/#/"  target="_blank">
+            <a href="https://recipe-now-app.firebaseapp.com/"  target="_blank">
               <img class="projectGifRN" src="../../static/RecipeNow.gif">
             </a>
           </div>
